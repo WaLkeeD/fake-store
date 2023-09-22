@@ -1,6 +1,6 @@
 <template>
    <div id="item" class="container" v-if="selected">
-      <router-link class="item__back" to="/">
+      <router-link class="item__back" to="/fake-router">
          <img src="../assets/images/arrow.svg" alt="">
          <span>Back to Home</span>
       </router-link>
